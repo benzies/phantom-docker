@@ -1,4 +1,4 @@
-The beginning...
+#The beginning...
 
 1. Start your container.
 
@@ -15,6 +15,14 @@ The beginning...
  
  4. PROFIT!
  
+#Build the container locally
+```
+git clone https://github.com/benzies/phantom-docker.git && \
+docker built -t phantom . && \
+docker run -it -d --privileged --name phantosd --hostname phantosd -p "443:443" phantom
+```
+
+
  
  Note: You NEED a phantom login, so you can download and install the software. This is a pretty crappy way to make it, it's unoffical, and I will eventually improve it. You can start and stop the container as normal and everything fires back up just fine.  
 
