@@ -23,7 +23,8 @@ RUN rpm -Uvh /var/tmp/phantom_repo-4.5.15922-1.x86_64.rpm && \
     yum install -y /var/tmp/phantom_cacerts-4.5.15922-1.x86_64.rpm && \
     yum install -y /var/tmp/phantom_cluster-4.5.15922-1.x86_64.rpm && \
     yum install -y /var/tmp/phantom-4.5.15922-1.x86_64.rpm && \
-    yum install -y /var/tmp/phantom_local-4.5.15922-1.rhel7.x86_64.rpm
+    yum install -y /var/tmp/phantom_local-4.5.15922-1.rhel7.x86_64.rpm && \
+    rm -f /var/tmp/phantom*
 
 ENTRYPOINT ["/usr/sbin/init"]
 CMD ["/bin/bash", "/opt/phantom/bin/start_phantom.sh"]
