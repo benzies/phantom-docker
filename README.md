@@ -8,7 +8,7 @@ The beginning...
 
 
       - yum update -y
-      - rpm -Uvh https://repo.phantom.us/phantom/4.1/base/6/x86_64/phantom_repo-4.1.94-1.x86_64.rpm
+      - rpm -Uvh https://repo.phantom.us/phantom/4.5/base/7/x86_64/phantom_repo-4.5.15922-1.x86_64.rpm
       - /opt/phantom/bin/phantom_setup.sh install --no-prompt
       
  3. ???
