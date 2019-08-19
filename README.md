@@ -18,7 +18,7 @@
 # Build the container locally
 ```
 git clone https://github.com/benzies/phantom-docker.git && \
-docker built -t phantom . && \
+docker build -t phantom . && \
 docker run -it -d --privileged --name phantosd --hostname phantosd -p "443:443" phantom
 ```
 
