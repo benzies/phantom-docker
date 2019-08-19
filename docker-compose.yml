@@ -1,0 +1,8 @@
+version: '3'
+services:
+  phantom: 
+    image: phantom
+    container_name: splunk_phantom
+    privileged: true
+    ports:
+      - 443:443
