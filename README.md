@@ -1,4 +1,4 @@
-#The beginning...
+# The beginning...
 
 1. Start your container.
 
@@ -15,7 +15,7 @@
  
  4. PROFIT!
  
-#Build the container locally
+# Build the container locally
 ```
 git clone https://github.com/benzies/phantom-docker.git && \
 docker built -t phantom . && \
