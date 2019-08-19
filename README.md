@@ -27,7 +27,7 @@ docker run -it -d --privileged --name phantosd --hostname phantosd -p "443:443" 
  Note: You NEED a phantom login, so you can download and install the software. This is a pretty crappy way to make it, it's unoffical, and I will eventually improve it. You can start and stop the container as normal and everything fires back up just fine.  
 
 
-The above is still the most effective method to getting Phantom in a container.  The latest method is still not recommended, eventually I would like to see the dependent services seperated into seperate containers. But hey... it took a year to get here, maybe next year?
+"The begining..." is still the most effective method to getting Phantom in a container.  The latest method is still not recommended, it builds but I can't seem to authenticate to phatom... and now I'm tired. Eventually I would like to see the dependent services seperated into seperate containers. But hey... it took a year to get here, maybe next year?
 
 #TODO
 Authentication to Phantom seems to fail...
