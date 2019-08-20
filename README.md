@@ -29,7 +29,7 @@ docker run -it -d --privileged --name phantosd --hostname phantosd -p "443:443" 
 
 "The begining..." is still the most effective method to getting Phantom in a container.  The latest method is still not recommended, it builds but I can't seem to authenticate to phatom... and now I'm tired. Eventually I would like to see the dependent services seperated into seperate containers. But hey... it took a year to get here, maybe next year?
 
-#TODO
+### TODO
 Authentication to Phantom seems to fail...
 
 #### Packages/Apps for Phantom
